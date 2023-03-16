@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62,5%;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  min-height: 100vh;
+}
+
+main {
+  justify-content: end;
+  align-items: center;
+  display: flex;
+  gap: 19.2rem;
+  width: 82.1rem;
+  height: 33.6rem; 
+}
+
+.container {
+  display: grid;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 2.4rem;
+}
+
+.forest1 {
+  background-color: #E1E1E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9.5rem;
+  width: 8.5rem;
+  border-radius: 2.4rem;
+}
+
+.rain1 {
+  background-color: #E1E1E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9.5rem;
+  width: 8.5rem;
+  border-radius: 2.4rem;
+}
+
+.coffeeshop1 {
+  background-color: #E1E1E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9.5rem;
+  width: 8.5rem;
+  border-radius: 2.4rem;
+}
+
+.fireplace1 {
+  background-color: #E1E1E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9.5rem;
+  width: 8.5rem;
+  border-radius: 2.4rem;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 200ms;
+}
+
+#timer {
+  font-size: clamp(4rem, 4rem + 10vw, 8.8rem);
+  display: flex;
+  color: #323238;
+}
+
+#controls {
+  display: flex;
+  gap: 3.5rem;
+}
+
+#sounds {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3.2rem;
+}
+
+
+
+
+
